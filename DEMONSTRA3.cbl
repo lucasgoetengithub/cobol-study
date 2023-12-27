@@ -10,7 +10,7 @@
        FILE SECTION.
        WORKING-STORAGE SECTION.
        77 WS-DATA               PIC X(22) VALUE SPACE.
-       77 WS-DATA-AA               PIC X(22) VALUE SPACE.
+       77 WS-DATA-AA            PIC X(22) VALUE SPACE.
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
             MOVE "12"      TO WS-DATA(01:02).
